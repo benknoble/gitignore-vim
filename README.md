@@ -5,4 +5,6 @@
 - Adds syntax and filetype to `.gitignore` files
   - This means you can customize vim's behavior in `.gitignore`
 - Provides useful mappable functions in `autoload`
-  - All functions should be mapped as `mapping_keys` to `:execute function#name()<CR>`
+  - All functions should be mapped as `mapping_keys` to `:execute
+    function#name()<CR>`
+  - All functions support [repeat.vim](https://github.com/tpope/vim-repeat)
